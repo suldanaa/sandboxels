@@ -5,15 +5,12 @@ html, body {
 }
 /* Load the font PressStart2P-Regular.ttf */
 @font-face {
-    font-family: 'Press Start 2P';
-    src: url('fonts/PressStart2P-Regular.ttf');
+    font-family: 'Space Grotesk';
+    src: url('fonts/SpaceGrotesk-Bold.ttf');
 }
-@font-face {
-    font-family: 'VT323';
-    src: url('fonts/VT323-Regular.ttf');
-}
+
 body {
-    font-family: 'Press Start 2P', 'VT323', Arial;
+    font-family: 'Space Grotesk', Arial;
     background-color: #000000;
     color: #ffffff;
 }
@@ -42,6 +39,8 @@ a:active, a:hover:active, .saveOption:active, .saveOption:hover:active {filter: 
 #game {
     image-rendering: pixelated;
 }
+
+
 #bottomInfoBox { /* place under the game canvas */
     margin: 1.5em 50px 0px 50px;
     font-family: 'Arial';
